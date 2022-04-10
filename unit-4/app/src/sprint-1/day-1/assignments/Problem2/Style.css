@@ -1,0 +1,72 @@
+.join{
+    background-color: rgb(32,152,202);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .contact{
+    background-color:rgb(165,39,42);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .download{
+    background-color: rgb(165,126,57);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .help{
+    background-color: rgb(92,90,153);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .home{
+    background-color: rgb(229,74,140) ;
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .login{
+    background-color: rgb(247,147,36);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .search{
+    background-color: rgb(116,167,62);
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .setting{
+    background-color: rgb(122,181,195) ;
+    color:white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  .contact{
+  
+    color: rgb(217,255,255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
