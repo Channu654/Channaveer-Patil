@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Todos } from './components/Todos';
+//2. createing a obj here and sending as props to todos as array of obj
+// let todos=[
+//   {id:1,value:'React', completed:false},
+//   {id:2,value:'webpack', completed:true},
+//   {id:3,value:'useState', completed:true},
+//   {id:4,value:'useEffect', completed:true},
 
+// ]
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* 3. using todos here as props and sending to Todos componenet*/}
+      <Todos />
     </div>
   );
 }
