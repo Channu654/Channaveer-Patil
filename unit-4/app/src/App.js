@@ -16,13 +16,11 @@ import { ChildToParent } from './sprint-2/day-1/we/Components/ChildToParent';
 import { Siblings } from './sprint-2/day-1/we/Components/Siblings';
 import { Welcome } from './sprint-2/day-1/we/Components/Welcome';
 import { TicTac } from './sprint-2/day-1/assignments/TicTacToc/TicTac';
-import { Counter } from './sprint-2/day-2/you/UseEffect/Counter';
+// import { Counter } from './sprint-2/day-2/you/UseEffect/Counter';
+import { Todos } from './sprint-2/day-2/TodoApp/Components/Todos';
 
 // import First from './sprint-1/day-1/assignments/Problem1/First';
 // import {Counter} from './sprint-1/day-2/assignments/Counter/Counter'
-
-
-
 
 function App() {
   return (
@@ -37,17 +35,16 @@ function App() {
      <Help/><br/>
      <Home/>
     <Download/>*/}
-    {/* <Button/> */}
-    {/* <Count/> */}
-    {/* <Todo/> */}
-    {/* <ParentTochild/>
+      {/* <Button/> */}
+      {/* <Count/> */}
+      {/* <Todo/> */}
+      {/* <ParentTochild/>
     <ChildToParent/>
     <Siblings/>
     <Welcome/> */}
-    {/* <TicTac/> */}
-    <Counter/>
-   
-
+      {/* <TicTac/> */}
+      {/* <Counter/> */}
+      <Todos />
     </div>
   );
 }
