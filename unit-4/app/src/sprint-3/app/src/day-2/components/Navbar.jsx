@@ -1,13 +1,12 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from 'styled-components';
 import NavbarCartitems from './NavbarCartitems';
 
 const Navbar = () => {
-    const [toggleTheme]= useContext(ThemeContext)
+    const [theme]=useContext
   return (
     <div className='border'>
+        <button> Tooggle Theme</button>
       Navbar
-      <button onClick={toggleTheme}> Toggle Theme</button>
       <NavbarCartitems />
     </div>
   );
