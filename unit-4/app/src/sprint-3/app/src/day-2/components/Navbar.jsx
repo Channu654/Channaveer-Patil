@@ -1,15 +1,10 @@
-import React, { useContext } from 'react';
-import NavbarCartitems from './NavbarCartitems';
+import React from "react";
+import NavbarCartitems from "./NavbarCartitems";
 
 const Navbar = () => {
-    const [theme]=useContext
-  return (
-    <div className='border'>
-        <button> Tooggle Theme</button>
-      Navbar
-      <NavbarCartitems />
-    </div>
-  );
+  return <div>Navbar
+     <h1>hghgh</h1>
+  </div>;
 };
 
-export default Navbar;
+export  default Navbar;

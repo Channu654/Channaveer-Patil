@@ -1,12 +1,11 @@
-import React from 'react';
-import Cart from './Cart';
+import React from "react";
+import  Cart  from "./Cart";
 
 const Body = () => {
-  return (
-    <div className='border'>
-      <Cart />
-    </div>
-  );
+  return <div>
+<Cart/>
+
+  </div>;
 };
 
 export default Body;

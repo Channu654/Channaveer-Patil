@@ -3,8 +3,11 @@ import styles from './form.module.css';
 
 const Form = () => {
   const [formData, setFormData] = useState({
-    username:"",
-    password:"",
+    Name:"",
+    Age:"",
+    Address:"",
+    Department:"",
+    material:"",
     showpassword:false,
   });
 
@@ -41,8 +44,8 @@ const Form = () => {
     <div className={styles.form}>
       <form onSubmit={formSubmit}>
         <div className={styles.grid}>
-          <label htmlFor=''> username</label>
-          <input type='text' name='username' onChange={handleChange} />
+          <label htmlFor=''> Aame</label>
+          <input type='text' name='name' onChange={handleChange} />
         </div>
         <div className={styles.grid}>
           <label htmlFor=''> password</label>

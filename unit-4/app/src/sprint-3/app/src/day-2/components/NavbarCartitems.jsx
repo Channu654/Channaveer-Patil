@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const NavbarCartitems = () => {
-  return <div className='border'>NavbarCartitems :value</div>;
+  return <div>NavbarCartitems</div>;
 };
 
 export default NavbarCartitems;
