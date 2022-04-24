@@ -11,10 +11,11 @@ import Google from './Components/Google';
 
 function App() {
   const navigate = useNavigate();
-  // whenever user enter into webpage directly they need to go to Home page 
-  useEffect(()=>{
-    navigate("/home");
-  },[])
+  // whenever user enter into webpage directly they need to go to Home page
+  useEffect(() => {
+    navigate('/home');
+  }, []);
+
   return (
     <div className='App'>
       <Navbar />
@@ -24,17 +25,15 @@ function App() {
         <Route path='About' element={<About />} />
 
         <Route path='Login/*' element={<Login />} />
-        <Route path="/Sign-in" element={ <Signin/>}/>
-          <Route path="/Sign-Up" element={ <SignUp/>}/>
-          <Route path="/Log-in With Google" element={  <Google/>}/> 
-          <Route/>
+
+       
+
+        <Route />
       </Routes>
       <div>
         {/* Note 1.rendering Sign in , sigb up , Google 
          2.'Login/*'   it means after login wtever u give it only to Login page only
          when we apply means in codition we have multilple routings */}
-         
-        
       </div>
     </div>
   );

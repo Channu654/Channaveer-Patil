@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet,useNavigate } from 'react-router-dom';
+import { Outlet, Routes, Route, useNavigate } from 'react-router-dom';
 import Google from '../Components/Google';
 import Signin from '../Components/Signin';
 import SignUp from '../Components/SignUp';
@@ -7,17 +7,19 @@ import SignUp from '../Components/SignUp';
 const Login = () => {
   const navigate = useNavigate();
   return (
-    <h1>
-      <button onClick={() => navigate('/Login/Signin')}>Sign-in</button>
-      <button onClick={() => navigate('/Login/Signup')}>Sign-up</button>
-      <button onClick={() => navigate('/Login/Google')}>
+    <div>
+      <button onClick={() => navigate('Sign-in')}>Sign-in</button>
+      <button onClick={() => navigate('Sign-Up')}>Sign-up</button>
+      <button onClick={() => navigate('Google')}>
         Log-in With Google
       </button>
 
-      <div>
-        <Outlet />
-      </div>
-    </h1>
+      <Routes>
+        <Route path='/Sign-in' element={<Signin />} />
+        <Route path='/Sign-Up' element={<SignUp />} />
+        <Route path='/Google' element={<Google />} />
+      </Routes>
+    </div>
   );
 };
 export default Login;
