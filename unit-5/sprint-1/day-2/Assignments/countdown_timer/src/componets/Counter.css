@@ -1,0 +1,13 @@
+.counter {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.counter span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
