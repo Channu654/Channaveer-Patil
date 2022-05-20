@@ -29,6 +29,7 @@ const Github = () => {
       });
   }, []);
   console.log(data);
+  
   const handleclick = (query) => setquery(query);
   return (
     <div>
