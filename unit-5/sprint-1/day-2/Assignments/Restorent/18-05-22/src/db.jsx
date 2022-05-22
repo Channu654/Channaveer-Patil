@@ -1,6 +1,5 @@
-{
-  "posts": [
-    {
+
+ const data  = [ {
       "payment": "Accepts online payments only",
       "votes": "722",
       "name": "Masham",
@@ -199,6 +198,6 @@
       "category": "Pizza",
       "cost": "1000",
       "rating": "0.5"
-    }
-  ]
-}
+    }]
+
+export default data
