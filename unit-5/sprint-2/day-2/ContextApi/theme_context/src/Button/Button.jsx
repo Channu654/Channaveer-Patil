@@ -7,7 +7,12 @@ const Button = ({ text }) => {
 
   return (
     <div>
-      <button className={`${style.buttonBase} ${theme ==="light"? style.buttonlight : style.buttonDark}`}>{text}</button>
+      <button
+        className={`${style.buttonBase} ${
+          theme === 'light' ? style.buttonlight : style.buttonDark
+        }`}>
+        {text}
+      </button>
     </div>
   );
 };
