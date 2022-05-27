@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { AppcontextProvider } from './Appcontext/AppcontextProvider';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-    {/*4  To provide values to all App.jsx now app.jsx is allows props from appcontext */}
-    <AppcontextProvider>
-      <App />
-    </AppcontextProvider>
-  </div>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

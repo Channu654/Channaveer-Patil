@@ -1,11 +1,10 @@
 import './App.css';
-import Button from './Button/Button';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
     <div className='App'>
-      <Button text='Theme' />
-      <button className=''>Toggle </button>
+      <AllRoutes />
     </div>
   );
 }

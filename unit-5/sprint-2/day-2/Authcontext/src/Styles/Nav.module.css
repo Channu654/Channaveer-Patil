@@ -1,0 +1,11 @@
+.navmain {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  background-color: rgb(19, 42, 27);
+  text-align: right;
+  justify-content: flex-end;
+
+  gap: 40;
+}
