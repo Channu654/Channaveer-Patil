@@ -1,0 +1,33 @@
+.mainDiv{
+    /* border: 2px solid black; */
+    height: 3400px;
+    width: 76%;
+    margin: auto;
+    background-color:#fff;
+    padding-top: 50px;
+}
+
+.innerDiv{
+    /* border: 2px solid red; */
+    width: 55%;
+    margin: auto;
+    height: 3380px;
+    color: rgb(112, 92, 92);
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+span{
+    font-style: italic;
+    color: rgb(94, 83, 83);
+    font-size: 20px;
+
+}
+ .image{
+     height: 500px;
+     width: 638px;
+ }
+ .body{
+     background-color: #ededed;
+ }

@@ -1,0 +1,100 @@
+.upperDiv{
+    border: 2px solid black;
+    height: 2500px;
+    width: 75%;
+    margin: auto;
+}
+
+.div1{
+    border: 2px solid red;
+    height: 150px;
+    margin-top: 40px;
+    text-align: left;
+    background-color: #fff;
+    
+}
+
+p{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+.div2 > div{
+    background-color: #fff;
+
+}
+
+.div2 div{
+    border: 2px solid blue;
+    text-align: left;
+
+}
+
+.div2 img{
+    height: 200px;
+    width: 100%;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#price{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+    color: rgb(114, 103, 103);
+}
+
+#cancel{
+    color: rgb(21, 111, 21);
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
+
+h1{
+    text-align: left;
+}
+
+#para{
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+#atag{
+    background-color: #ededed;
+    color: rgb(32, 116, 123);
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+.ptag{
+    color: rgb(98, 91, 91);
+    font-size: 16px;
+}
+
+.ptag2{
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#maindiv{
+    background-color: #ededed;
+}
