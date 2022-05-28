@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="navstyle.css">
+<style>
+#main{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 1px solid black; */
+}
+#img_div{
+    width: 100%;
+    height: 60%;
+}
+h1,p {
+    margin-left: 80px;
+}
+#sort{
+    margin-left: 50px;
+}
+#card_div{
+    border: 2px solid black;
+    margin: 10px;
+   
+}
+#div_container{
+    margin: 10px;
+    border: 1px solid green;
+}
+
+
+</style>
+</head>
+<body>
+ <div id="navebar"> </div>
+
+
+
+   <div id="div_container"> 
+<a href="afterlogin.html"> <h1> Makeup </h1></a>
+    <p>Home / CLean Makeup</p>
+    
+    <select name="" id="sort-Brand">
+        <option value="category">BRAND</option>
+        <option >VAPAOUR</option>
+        <option> W3LL PEOPLE</option>
+        <option >WLDKAT</option>
+        <option value="">YET BEAUTE</option>
+        <option value="">YOUTHFORIA</option>
+  </select>
+  <select id="sort-Serums">
+            <option value="">SERUMS</option>
+            <option value="">SETTING POWDER</option>
+            <option value="">SKINCARE</option>
+            <option value="">SUN CARE & SELT TANNERS</option>
+            <option value="">TINTED LIP BALM</option>
+            <option value="">TONNERS</option>
+  </select>
+<select name="" id="sort-Concrn">
+<option value="">CONCERN</option>
+<option value="">ANTI AGINE</option>
+<option value="">CELLULITE ABD FIRMING</option>
+<option value="">COLOR CARE</option>
+<option value="">CURL CARE</option>
+<option value="">DAMAGED HAIR</option>
+<option value="">DRY HAI</option>
+<option value="">DRYNESS</option>
+<option value="">DULLNES</option>
+
+</select>
+<select name="" id="sort-Incredent">
+    <option value="">INCREDENT</option>
+    <option value="">ACIDS</option>
+    <option value="">ADAPTGENS</option>
+    <option value="">ALAGE</option>
+    <option value="">ALOVE VERACBO</option>
+    <option value="">CHARCOAL</option>
+  
+</select>
+<select onchange="sortPrice()" id="sort-Price">
+    <option  value="">PRICE</option>
+    <option value="high">high</option>
+    <option value="low">low</option>
+    <!-- <option value="">$50-$100</option>
+    <option value="">$100-$150</option>
+    <option value="">$150-$200</option>
+    <option value="">$200-MORE</option> -->
+</select>
+</div>
+
+<div id="main"> </div>
+
+  <br>
+  <br>
+   <div id="footer"> </div>
+    
+</body>
+</html>
+
+<script >
+  var arr =[]
+
+async function apicall() {
+    try {
+ let res = await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json`)
+ var data =await res.json()
+//  console.log("main_data", main_data)
+
+//  let data = []
+//  data.push(data)
+console.log(data)
+
+data.forEach (function (ele){
+    arr.push(ele)
+})
+console.log("arr",arr)
+appenddata(data)
+
+    } catch (err){
+        console.log(err)
+    }
+}
+
+apicall()
+
+// ***********
+// appending data to web page
+function appenddata (data) {
+
+    let parent =document.getElementById("main")
+    // console.log(data)
+        
+    data.forEach (Element =>{
+   
+    // console.log(Element)
+
+    let div = document.createElement("div")
+    div.setAttribute("id" , "card_div")
+    let images = document.createElement("img")
+    images.src = Element.image_link
+    images.setAttribute("id", "img_div")    
+        
+    let text = document.createElement("p")
+    text.setAttribute ("id", "desc")
+
+    text.innerText = Element.name
+    // console.log(text)
+
+    let price = document.createElement("p")
+    price.innerText =Element.price_sign+" " +Element.price 
+    // console.log(price)
+
+
+    let brand = document.createElement("p")
+        brand.innerText = Element.brand
+        // console.log(brand)
+
+
+        div.append(images, brand,text , price )
+     
+        parent.append (div)
+
+    })
+}
+
+
+  function sortPrice() {
+
+ let sort = document.getElementById("sort-Price").value;
+
+ if(sort == "high")
+ {
+  arr= arr.sort(function (a,b) {
+       return Number(b.price) - Number(a.price)
+   })
+ }
+ 
+ if(sort == "low")
+ {
+  arr= arr.sort(function (a,b) {
+       return Number(a.price) - Number(b.price)
+   })
+ }
+ let main = document.getElementById("main")
+ main.innerHTML = null
+ appenddata (arr)
+
+ }
+</script>
+
+
