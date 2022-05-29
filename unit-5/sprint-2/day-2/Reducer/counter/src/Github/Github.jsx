@@ -8,6 +8,7 @@ const initialstate = {
   loading: true,
   error: false,
   data: null,
+  q:null
 };
 
 //action
@@ -16,6 +17,8 @@ const GithubAction = {
   fetch: 'fetch',
   failure: 'failure',
 };
+
+
 
 // reducer
 const Githubreducer = (action, state) => {
@@ -57,13 +60,11 @@ const Github = () => {
   );
 
   useEffect(() => {
-    getdata();
-  }, []);
-
- 
+    getdata(q);
+  }, [q]);
 
   // data fetching
-  const getdata = () => {
+  const getdata = (q) => {
     dispatch({
       type: GithubAction.fetch,
     });
@@ -92,6 +93,7 @@ const Github = () => {
 
   return (
     <div>
+      <input type='text' value={text} onChange={() => setSearch(text)} />
       {loading && <div>...loading</div>}
       {error && <div>...Error</div>}
       {data?.items.map((item) => (
