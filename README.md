@@ -12,7 +12,7 @@
 
 - 💬 Ask me about **HTML,CSS,JS,REACT**
 
-- 📫 How to reach me **ppalniraj1996@gmail.com**
+- 📫 How to reach me **channaveerpatil999@gmail.com**
 
 - ⚡ Fun fact **I am Talktive.**
 
