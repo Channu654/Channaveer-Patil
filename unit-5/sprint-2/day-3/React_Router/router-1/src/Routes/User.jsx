@@ -1,20 +1,20 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 import style from './Links.module.css';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
+import { Authcontex } from '../context/Authcontext';
 
 const User = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
- 
+  const [isAuth] = useContext(Authcontex);
 
   useEffect(() => {
     setLoading(true);
-  
 
     axios({
-      url: "https://reqres.in/api/users",
+      url: 'https://reqres.in/api/users',
       method: 'GET',
     })
       .then((res) => {
@@ -24,6 +24,9 @@ const User = () => {
       .catch((err) => {});
   }, []);
   console.log(data);
+  if (!isAuth) {
+    return <Navigate to='/Login' />;
+  }
   return (
     <div>
       <h1>users</h1>
