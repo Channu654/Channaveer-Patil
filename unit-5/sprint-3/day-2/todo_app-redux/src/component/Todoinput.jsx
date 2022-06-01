@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addTodo } from '../Redux/Action';
 
 const Todoinput = () => {
   const [title, setTitle] = useState('');
   const dispatch = useDispatch();
+  const handleRemove = () => {
+  
+  };
   const handleAdd = () => {
     const payload = {
       title,
@@ -27,6 +30,7 @@ const Todoinput = () => {
         placeholder='add something '
       />
       <button onClick={handleAdd}>Add</button>
+      <button onClick={handleRemove}>Remove</button>
     </div>
   );
 };
