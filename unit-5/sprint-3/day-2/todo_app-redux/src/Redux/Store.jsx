@@ -1,6 +1,7 @@
-import { legacy_createStore } from 'redux';
-//. store which recievs action from reducer
 import { reducer } from './Reducer';
+import { legacy_createStore as createStore } from 'redux';
 
-export const store = legacy_createStore(reducer);
+const store = createStore(reducer);
 console.log('store:', store);
+
+export { store };

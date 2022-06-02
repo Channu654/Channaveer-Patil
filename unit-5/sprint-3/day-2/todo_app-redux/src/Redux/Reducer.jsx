@@ -1,16 +1,16 @@
-import { ADD_TODO } from './ActionType';
-//2. reducer return type action
+// 2.reducer
+import { ADD_TODO } from './Action';
 const initial = {
   todos: [
     {
       id: 1,
-      title: 'Learn redux',
-      status: false,
+      title: 'React',
+      status: true,
     },
-   
   ],
 };
-export const reducer = (state = initial, { type, payload }) => {
+
+const reducer = (state = initial, { type, payload }) => {
   switch (type) {
     case ADD_TODO: {
       return {
@@ -22,3 +22,4 @@ export const reducer = (state = initial, { type, payload }) => {
       return state;
   }
 };
+export { reducer };

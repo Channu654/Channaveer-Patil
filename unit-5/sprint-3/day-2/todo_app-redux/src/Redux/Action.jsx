@@ -1,10 +1,14 @@
-//4. action 
-import { ADD_TODO ,REMOVE_TODO } from "./ActionType";
+// what we are going to act with comoponent
 
-//action creator
-export const addTodo=(payload)=>{
-   return {
-       type:ADD_TODO,
-       payload
-   }
-}
+// action
+const ADD_TODO = 'ADD_TODO';
+
+// action creator
+
+const Addtodo = (payload) => {
+  return {
+    type: ADD_TODO,
+    payload,
+  };
+};
+export { Addtodo, ADD_TODO };

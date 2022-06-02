@@ -1,39 +1,32 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addTodo } from '../Redux/Action';
+import { Addtodo } from '../Redux/Action';
 
 const Todoinput = () => {
-  const [title, setTitle] = useState('');
-  const dispatch = useDispatch();
-  const handleRemove = () => {
-  
-  };
+  const [title, setTtile] = useState('');
+  const dispatch = useSelector();
+
   const handleAdd = () => {
     const payload = {
       title,
       status: false,
       id: uuidv4(),
     };
-    const AddtodoAction = addTodo(payload);
+    const AddtodoAction = Addtodo(payload);
     dispatch(AddtodoAction);
   };
-
   return (
     <div>
-      <h3>AddTodo</h3>
       <input
         type='text'
-        name=''
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-        placeholder='add something '
+        placeholder='enter Todoss here '
+        values={title}
+        onChange={(e) => setTtile(e.target.value)}
       />
       <button onClick={handleAdd}>Add</button>
-      <button onClick={handleRemove}>Remove</button>
     </div>
   );
 };
 
 export { Todoinput };
-//1.useDispatch - its dispatches actions from reducer

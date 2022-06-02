@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
 const TodoList = () => {
-  // byusing useSelector we will extract statet from reducer its always returns call back function
+  const todo = useSelector((state) => state.todos);
+  console.log('todo:', todo);
 
-  const todos = useSelector((state) => state.todos);
-  console.log('todos:', todos);
   return (
     <div>
-      {todos.map((item) => {
+      {todo.map((item) => {
         return (
           <div key={item.id}>
-            <h3>{item.title}</h3>
+          
           </div>
         );
       })}
     </div>
   );
 };
-
 export { TodoList };
