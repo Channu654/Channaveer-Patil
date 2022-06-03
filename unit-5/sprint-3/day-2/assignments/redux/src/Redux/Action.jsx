@@ -1,6 +1,5 @@
-//action creator
-
-import { ADD_TODO } from './ActionType';
+//1 action 
+const ADD_TODO = 'ADD_TODO';
 
 const Addtodo = (payload) => {
   return {
@@ -8,4 +7,4 @@ const Addtodo = (payload) => {
     payload,
   };
 };
-export { Addtodo };
+export { Addtodo, ADD_TODO };
