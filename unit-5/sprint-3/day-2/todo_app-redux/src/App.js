@@ -5,7 +5,7 @@ import { TodoList } from './component/TodoList';
 function App() {
   return (
     <div className='App'>
-      <h2>Redux</h2>
+      <h2>Redux12</h2>
       <Todoinput />
       <TodoList />
     </div>
