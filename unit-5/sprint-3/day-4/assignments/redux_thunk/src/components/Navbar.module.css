@@ -1,0 +1,10 @@
+.navMain
+{
+    background-color: aqua;
+    height: 40px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
