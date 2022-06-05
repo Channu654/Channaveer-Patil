@@ -1,32 +1,29 @@
-import { useState } from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { v4 as uuidv4 } from 'uuid';
-import { Addtodo } from '../../Redux/Todos/Action';
 
 const Todosinput = () => {
-  const [title, setTitle] = useState('');
+  const [text, setText] = useState('');
   const dispatch = useDispatch();
-
-  const handleAdd = () => {
-    const payload = {
-      title,
-      status: false,
-      id: uuidv4(),
-    };
-    // dispatch
-    const AddtodoAction = Addtodo(payload);
-    dispatch(AddtodoAction);
-  };
+   
+  useEffect=()=>{
+ 
+    
+  }
 
   return (
     <div>
       <input
         type='text'
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
+        name=''
+        id=''
+        value={text}
+        placeholder='enter todos'
+        onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleAdd}>Add</button>
+      <button>Add</button>
     </div>
   );
 };
-export { Todosinput };
+
+export default Todosinput;
