@@ -11,6 +11,6 @@ const rootReducer = combineReducers({
 });
 
 const store = createStore(rootReducer);
-console.log('store:', store.getState());
+
 
 export { store };
