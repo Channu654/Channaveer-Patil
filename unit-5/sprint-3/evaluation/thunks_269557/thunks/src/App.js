@@ -1,5 +1,13 @@
-import "./styles.css";
+import logo from './logo.svg';
+import './App.css';
+import { AllRoutes } from './Pages/AllRoutes';
 
-export default function App() {
-  return <div className="App"></div>;
+function App() {
+  return (
+    <div className="App">
+      <AllRoutes />
+    </div>
+  );
 }
+
+export default App;
