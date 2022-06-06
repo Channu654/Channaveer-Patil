@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-export const Pagination = ({ currentPage, lastPage, onPageChange }) => {
+export const Pagination = ({ currentPage1, lastPage, onPageChange }) => {
   const arr = new Array(lastPage).fill(0);
 
-//  console.log(lastPage);
   return (
     <div>
       {arr.map((item, page) => (
         <button
-          disabled={page + 1 === currentPage}
-          onClick={() => onPageChange(page + 1)}
-        >
+          disabled={page + 1 === currentPage1}
+          onClick={() => onPageChange(page + 1)}>
           {page + 1}
         </button>
       ))}

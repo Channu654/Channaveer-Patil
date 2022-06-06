@@ -39,7 +39,7 @@ return <div>404 NOT FOUND</div>
           prev
         </button>
         <Pagination
-          currentPage={page}
+          currentPage1={page}
           lastPage={100 / 10}
           onPageChange={setPage}
         />
