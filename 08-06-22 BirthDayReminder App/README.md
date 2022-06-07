@@ -1,3 +1,1 @@
-## Idea
-
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+## click me  https://dazzling-lebkuchen-008b32.netlify.app/
