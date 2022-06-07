@@ -1,2 +1,2 @@
 click me
-https://app.netlify.com/sites/thriving-dragon-56178a/overview
+https://thriving-dragon-56178a.netlify.app
