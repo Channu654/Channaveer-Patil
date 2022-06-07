@@ -1,11 +1,9 @@
-.navMain
-{
-    background-color: rgb(6, 2, 13);
-    height: 90px;
-    font-size: 30px;
-    color: #b6e9ba;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-
+.navMain {
+  background-color: rgb(6, 2, 13);
+  height: 90px;
+  font-size: 10px;
+  color: #077710;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }

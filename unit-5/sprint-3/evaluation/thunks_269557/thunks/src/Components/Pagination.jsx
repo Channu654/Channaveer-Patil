@@ -5,7 +5,7 @@ export const Pagination = ({ currentPage1, lastPage, onPageChange }) => {
 
   return (
     <div>
-      {arr.map((item, page) => (
+      {arr.map((e, page) => (
         <button
           disabled={page + 1 === currentPage1}
           onClick={() => onPageChange(page + 1)}>

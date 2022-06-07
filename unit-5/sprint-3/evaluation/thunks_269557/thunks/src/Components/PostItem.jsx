@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-export const PostItem = (props) => {
-    const {id,title,body}=props
+export const PostItem = (prop) => {
+  const { id, title, body } = prop;
   return (
     <div>
-<p>{title}</p>
+      <p>{title}</p>
     </div>
-  )
-}
+  );
+};
