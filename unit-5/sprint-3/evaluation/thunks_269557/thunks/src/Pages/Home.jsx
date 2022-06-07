@@ -3,21 +3,21 @@ import { useDispatch, useSelector } from 'react-redux';
 import { postLogin } from '../redux/auth/action';
 
 export const Home = () => {
-  const [formData, setFormData] = useState({});
+  const [inputData, setnputData] = useState({});
 
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
     const inputName = e.target.name;
-    setFormData({
-      ...formData,
+    setnputData({
+      ...inputData,
       [inputName]: e.target.value,
     });
   };
 
   const haddleSubmit = (e) => {
     e.preventDefault();
-    var value = formData;
+    var value = inputData;
     if (value) {
       postLogin({
         value,

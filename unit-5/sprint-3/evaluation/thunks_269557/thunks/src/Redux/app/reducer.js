@@ -1,5 +1,5 @@
 import { GET_DATA_ERROR, GET_DATA_REQUEST, GET_DATA_SUCCESS, } from "./actionType";
-const initial={
+const initialstate={
 
     Postdata:{
     isLoding:false,
@@ -8,7 +8,7 @@ const initial={
     data:[]
 }
 }
-export const PostReducer = (state=initial, action) => {
+export const PostReducer = (state=initialstate, action) => {
    
 
     switch (action.type) {

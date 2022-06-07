@@ -7,7 +7,7 @@ import { getData } from '../redux/app/action';
 import style from './Post.module.css';
 
 export const Posts = () => {
-  const [page, setPage] = useState(1);
+  const [pages, setPages] = useState(1);
 
   const { isLoading, isError, Postdata } = useSelector(
     (state) => state.Postdata
@@ -16,8 +16,8 @@ export const Posts = () => {
   console.log(Postdata?.data);
   const dispatch = useDispatch();
   useEffect(() => {
-    getData({ page, dispatch });
-  }, [page]);
+    getData({ pages, dispatch });
+  }, [pages]);
 
   if (isLoading) return <div>Loading..</div>;
   if (isError) return <div>404 NOT FOUND</div>;
@@ -32,11 +32,11 @@ export const Posts = () => {
             previous
           </button>
           <Pagination
-            currentPage1={page}
+            currentPage1={pages}
             lastPage={100 / 10}
-            onPageChange={setPage}
+            onPageChange={setPages}
           />
-          <button onClick={() => setPage(page + 1)}>nextpage</button>
+          <button onClick={() => setPages(pages + 1)}>nextpages</button>
         </div>
       </div>
     </>
