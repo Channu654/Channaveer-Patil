@@ -10,7 +10,7 @@ export const Navbar = () => {
     <div >
         <div className={style.navMain}>
         <div>
-        <div>  <p>EMAIL: </p></div>
+        <div>  <p>email: </p></div>
         </div>
         <div className={style.navMain}>
         <div> <h5>Token:{login?.data.token} </h5></div>
