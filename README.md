@@ -48,25 +48,25 @@
 
 </tr>
 
-<tr valign="top">
+<!-- <tr valign="top">
 
 <td width="25%" align="center">
-<!-- 
+
 <span><b>NodeJS</b></span><br><br>
-<!-- 
-<img height="64px" src="https://cdn.svgporn.com/logos/nodejs.svg"> --> -->
+
+<img height="64px" src="https://cdn.svgporn.com/logos/nodejs.svg">
 
 </td>
 
-<td width="25%" align="center">
+<td width="25%" align="center"> -->
 
 <!-- <span><b>Express JS</b></span><br><br>
 
 <img height="64px" src="https://miro.medium.com/max/1400/1*Gh3DT2gRHZZDxZy9bI_ixw.png"> -->
 
-</td>
+<!-- </td>
 
-<td width="25%" align="center">
+<td width="25%" align="center"> -->
 
 <!-- <span><b>MongoDB</b></span><br><br> -->
 
@@ -90,7 +90,7 @@
 
 </td> -->
 
-</tr>
+<!-- </tr> -->
 
 <tr valign="top" style="display:flex;justify-content:space-around;">
 
