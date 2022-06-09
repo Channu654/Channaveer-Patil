@@ -1,4 +1,4 @@
-[![Channaveer Patil, I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Channu654%20Kumawat%20)](https://github.com/Channu654)
+[![Channaveer Patil, I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Channa654%20Kumawat%20)](https://github.com/Channu654)
 
 <h3>👨‍⚖️ I am a full-stack developer. Proficient in building user friendly websites. Passionate about implementing and launching new projects. Able to translate business requirements into technical solutions. I am always ready to learn new technologies.</h3>
 
@@ -134,16 +134,16 @@
 <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> -->
 
 <p align="center">
-  <a href="mailto:bhupeshkumawat100@gmail.com">
+  <a href="mailto:channaveerpatil999@gmail.com">
     <img align="left" src="https://github.com/shivam-singh-au17/shivam-singh-au17/blob/main/Images/mail.png?raw=true" width="32px" />
   </a>
- <a href="https://medium.com/@bhupeshkumawat100">
+ <a href="https://medium.com/@channaveerpatil999">
     <img align="left" src="https://raw.githubusercontent.com/shivam-singh-au17/shivam-singh-au17/5604a09025392c73fc35b8589807b82c3b585d17/Images/medium.svg" width="32px" />
   </a>
-  <a href="https://www.linkedin.com/in/bhupesh-kumawat/">
+  <a href="https://www.linkedin.com/in/channaveer-patil-704bb017a/>
     <img align="left" src="https://raw.githubusercontent.com/shivam-singh-au17/shivam-singh-au17/5604a09025392c73fc35b8589807b82c3b585d17/Images/linked-in-alt.svg" width="28px" />
   </a>
-  <a href="https://bhupesh-kumawat-portfolio-react.netlify.app/">
+  <a href="https://channaveerpatil.netlify.app/">
     <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D03AQE-i1IMpq3fDQ/profile-displayphoto-shrink_400_400/0/1650371032418?e=1659571200&v=beta&t=CobVrN8crXVLL3YdMpfZ91xfT7tSzmoTCpyThUEz44c" width="28px" />
   </a>
  <!-- <a href="https://leetcode.com/monumishra326/">
@@ -161,13 +161,13 @@
 <!-- <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Bhupesh1114&show_icons=true&count_private=true&hide_border=true" align="center" /></div>   -->
 
 <p align="center" >
-<img src="http://github-readme-streak-stats.herokuapp.com?user=Bhupesh1114&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727"  />
+<img src="http://github-readme-streak-stats.herokuapp.com?user=Channu654&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727"  />
 </p>
  
 <p>
-<a href="https://github.com/Bhupesh1114"><span>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Bhupesh1114&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi"/>
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Bhupesh1114&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" width="400px"/>
+<a href="https://github.com/Channu654"><span>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Channu654&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=Channu654&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" width="400px"/>
 </span></a> </p>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -192,5 +192,5 @@
 ![](https://github.com/amandewatnitrr/amandewatnitrr/blob/main/imgs/bottom_header.svg)
 
 <br/> 
-⭐️ From [@Bhupesh1114](https://github.com/Bhupesh1114)
+⭐️ From [@Channu654](https://github.com/Channu654)
 <!-- {"mode":"full","isActive":false} -->
