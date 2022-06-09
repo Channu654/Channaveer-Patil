@@ -1,4 +1,4 @@
-[![Channaveer Patil , I'm a Full Stack Web Developer.🧑‍💻](https://github.com/Channu654/Channaveer-Patil/tree/729ba8120f95341f4ec40b6f7f2de1ab3418f720)
+[![Channaveer Patil , I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Channaveer%20Kumawat%20)](https://github.com/Channu654)
 
 <h3>👨‍⚖️ I am a full-stack developer. Proficient in building user friendly websites. Passionate about implementing and launching new projects. Able to translate business requirements into technical solutions. I am always ready to learn new technologies.</h3>
 
@@ -139,28 +139,42 @@
   <a href="https://channaveerpatil.netlify.app/">
     <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D03AQE-i1IMpq3fDQ/profile-displayphoto-shrink_400_400/0/1650371032418?e=1659571200&v=beta&t=CobVrN8crXVLL3YdMpfZ91xfT7tSzmoTCpyThUEz44c" width="28px" />
   </a>
- 
+ <!-- <a href="https://leetcode.com/monumishra326/">
+    <img align="left" src="https://github.com/shivam-singh-au17/shivam-singh-au17/blob/main/Images/leetcode.png?raw=true" width="24px"  />
   </a> -->
 </p>
-<br><br/>
+<br><br/> 
+<!-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 🙂</em> -->
 
 ---
 
 ### 🐱 &nbsp;My Github stats:
 
-</p>
+</p> 
+<!-- <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Bhupesh1114&show_icons=true&count_private=true&hide_border=true" align="center" /></div>   -->
 
 <p align="center" >
 <img src="http://github-readme-streak-stats.herokuapp.com?user=Channu654&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727"  />
 </p>
  
 <p>
-<a href="https://github.com/Channu654/Channaveer-Patil"><span>
+<a href="https://github.com/Channu654"><span>
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Channu654&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi"/>
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=Channu654&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" width="400px"/>
 </span></a> </p>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<!-- <!-- <hr clear="both"> -->
+ <br/>
+<!-- <p align="center">
+<a href="https://github.com/Kapil5849Jadon"><span>
+<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bhupesh1114&theme=dracula" />
+</span></a> </p> -->
+
+ <!-- <!-- <br/> -->
+
+<!-- ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Kapil5849Jadon&bg_color=000000&color=4fff67&line=4fff67&point=ffffff&area=true&hide_border=true)  -->
 
 <hr clear="both">
 
@@ -172,3 +186,4 @@
 
 <br/> 
 ⭐️ From [@Channu654](https://github.com/Channu654)
+<!-- {"mode":"full","isActive":false} -->
