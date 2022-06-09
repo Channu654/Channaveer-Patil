@@ -1,4 +1,4 @@
-[![Bhupesh Kumawat , I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Bhupesh%20Kumawat%20)](https://github.com/Bhupesh1114)
+[![Channaveer Patil , I'm a Full Stack Web Developer.🧑‍💻](https://github.com/Channu654/Channaveer-Patil/tree/729ba8120f95341f4ec40b6f7f2de1ab3418f720)
 
 <h3>👨‍⚖️ I am a full-stack developer. Proficient in building user friendly websites. Passionate about implementing and launching new projects. Able to translate business requirements into technical solutions. I am always ready to learn new technologies.</h3>
 
@@ -126,62 +126,41 @@
 
 ### 🤝🏻 &nbsp;Connect with Me
 
-<!-- <p align="center">
-  <a href="https://www.linkedin.com/in/bhupesh-kumawat/"><img src="https://img.shields.io/badge/Linkdin-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:bhupeshkumawat100@gmail.com"><img src="https://img.shields.io/badge/-Mail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-</p> -->
-<!-- <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;**Connect with me ....**
-<img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> -->
-
 <p align="center">
-  <a href="mailto:bhupeshkumawat100@gmail.com">
+  <a href="mailto:channaveerpatil999@gmail.com">
     <img align="left" src="https://github.com/shivam-singh-au17/shivam-singh-au17/blob/main/Images/mail.png?raw=true" width="32px" />
   </a>
- <a href="https://medium.com/@bhupeshkumawat100">
-    <img align="left" src="https://raw.githubusercontent.com/shivam-singh-au17/shivam-singh-au17/5604a09025392c73fc35b8589807b82c3b585d17/Images/medium.svg" width="32px" />
+ <a href="https://medium.com/@channaveerpatil999">
+    
   </a>
-  <a href="https://www.linkedin.com/in/bhupesh-kumawat/">
+  <a href="https://www.linkedin.com/in/channaveer-patil-704bb017a/">
     <img align="left" src="https://raw.githubusercontent.com/shivam-singh-au17/shivam-singh-au17/5604a09025392c73fc35b8589807b82c3b585d17/Images/linked-in-alt.svg" width="28px" />
   </a>
-  <a href="https://bhupesh-kumawat-portfolio-react.netlify.app/">
+  <a href="https://channaveerpatil.netlify.app/">
     <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D03AQE-i1IMpq3fDQ/profile-displayphoto-shrink_400_400/0/1650371032418?e=1659571200&v=beta&t=CobVrN8crXVLL3YdMpfZ91xfT7tSzmoTCpyThUEz44c" width="28px" />
   </a>
- <!-- <a href="https://leetcode.com/monumishra326/">
-    <img align="left" src="https://github.com/shivam-singh-au17/shivam-singh-au17/blob/main/Images/leetcode.png?raw=true" width="24px"  />
+ 
   </a> -->
 </p>
-<br><br/> 
-<!-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 🙂</em> -->
+<br><br/>
 
 ---
 
 ### 🐱 &nbsp;My Github stats:
 
-</p> 
-<!-- <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Bhupesh1114&show_icons=true&count_private=true&hide_border=true" align="center" /></div>   -->
+</p>
 
 <p align="center" >
-<img src="http://github-readme-streak-stats.herokuapp.com?user=Bhupesh1114&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727"  />
+<img src="http://github-readme-streak-stats.herokuapp.com?user=Channu654&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727"  />
 </p>
  
 <p>
-<a href="https://github.com/Bhupesh1114"><span>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Bhupesh1114&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi"/>
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Bhupesh1114&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" width="400px"/>
+<a href="https://github.com/Channu654/Channaveer-Patil"><span>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Channu654&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=Channu654&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" width="400px"/>
 </span></a> </p>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-<!-- <!-- <hr clear="both"> -->
- <br/>
-<!-- <p align="center">
-<a href="https://github.com/Kapil5849Jadon"><span>
-<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bhupesh1114&theme=dracula" />
-</span></a> </p> -->
-
- <!-- <!-- <br/> -->
-
-<!-- ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Kapil5849Jadon&bg_color=000000&color=4fff67&line=4fff67&point=ffffff&area=true&hide_border=true)  -->
 
 <hr clear="both">
 
@@ -192,5 +171,4 @@
 ![](https://github.com/amandewatnitrr/amandewatnitrr/blob/main/imgs/bottom_header.svg)
 
 <br/> 
-⭐️ From [@Bhupesh1114](https://github.com/Bhupesh1114)
-<!-- {"mode":"full","isActive":false} -->
+⭐️ From [@Channu654](https://github.com/Channu654)
