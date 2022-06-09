@@ -1,4 +1,4 @@
-[![Channaveer Patil, I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Channa654%20Patil%20)](https://github.com/Channu654)
+[![Channaveer Patil, I'm a Full Stack Web Developer.🧑‍💻](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=I%27m%20a%20Full%20Stack%20Web%20Developer.%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB&title=Channaveer%20Patil%20)](https://github.com/Channu654)
 
 <h3>👨‍⚖️ I am a full-stack developer. Proficient in building user friendly websites. Passionate about implementing and launching new projects. Able to translate business requirements into technical solutions. I am always ready to learn new technologies.</h3>
 
