@@ -48,7 +48,7 @@
 
 </tr>
 
-<!-- <tr valign="top">
+<tr valign="top">
 
 <td width="25%" align="center">
 
@@ -58,19 +58,19 @@
 
 </td>
 
-<td width="25%" align="center"> -->
+<td width="25%" align="center">
 
-<!-- <span><b>Express JS</b></span><br><br>
+<span><b>Express JS</b></span><br><br>
 
-<img height="64px" src="https://miro.medium.com/max/1400/1*Gh3DT2gRHZZDxZy9bI_ixw.png"> -->
+<img height="64px" src="https://miro.medium.com/max/1400/1*Gh3DT2gRHZZDxZy9bI_ixw.png">
 
-<!-- </td>
+</td>
 
-<td width="25%" align="center"> -->
+<td width="25%" align="center">
 
-<!-- <span><b>MongoDB</b></span><br><br> -->
+<span><b>MongoDB</b></span><br><br>
 
-<!-- <img height="64px" src="https://cdn.svgporn.com/logos/mongodb.svg"> -->
+<img height="64px" src="https://cdn.svgporn.com/logos/mongodb.svg">
 
 </td>
 
@@ -90,7 +90,7 @@
 
 </td> -->
 
-<!-- </tr> -->
+</tr>
 
 <tr valign="top" style="display:flex;justify-content:space-around;">
 
@@ -144,7 +144,7 @@
     <img align="left" src="https://raw.githubusercontent.com/shivam-singh-au17/shivam-singh-au17/5604a09025392c73fc35b8589807b82c3b585d17/Images/linked-in-alt.svg" width="28px" />
   </a>
   <a href="https://channaveerpatil.netlify.app/">
-    <img align="left" src="https://channaveerpatil.netlify.app/static/media/P.63fea38e.jpeg" width="28px" />
+    <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D03AQE-i1IMpq3fDQ/profile-displayphoto-shrink_400_400/0/1650371032418?e=1659571200&v=beta&t=CobVrN8crXVLL3YdMpfZ91xfT7tSzmoTCpyThUEz44c" width="28px" />
   </a>
  <!-- <a href="https://leetcode.com/monumishra326/">
     <img align="left" src="https://github.com/shivam-singh-au17/shivam-singh-au17/blob/main/Images/leetcode.png?raw=true" width="24px"  />
